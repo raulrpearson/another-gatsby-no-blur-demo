@@ -1,0 +1,25 @@
+{
+  "name": "another-gatsby-no-blur-demo",
+  "version": "0.1.0",
+  "description": "I'm not good with descriptions.",
+  "private": true,
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Raúl R. Pearson <raulrpearson@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.4.2",
+    "gatsby-plugin-sharp": "^2.0.36",
+    "gatsby-remark-images": "^3.0.11",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-transformer-remark": "^2.3.12",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
